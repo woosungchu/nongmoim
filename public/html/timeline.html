@@ -1,0 +1,74 @@
+<style>
+#timeline { max-width:1200px; min-height:500px; margin: 20px auto !important; padding-top:5px;}
+.flex-row { width: 100%; display: flex; flex-flow: row wrap; justify-content: center; } /* outer */
+.flex-ea { flex-basis: 33.33%; -ms-flex: auto; position: relative; padding: 0 10px; box-sizing: border-box;} /* inner */
+.flex-ea figure {	width: inherit; height:245px;	border-radius:3px;
+                      margin: 0;	padding: 0;	background: #fff;	overflow: hidden;}
+.flex-ea img { width: 100%; border-radius:3px;
+    -webkit-transform: scale(1); transform: scale(1);	-webkit-transition: .3s ease-in-out;	transition: .3s ease-in-out;}
+.flex-ea img:hover{  	-webkit-transform: scale(1.2);	transform: scale(1.2); }
+.flex-ea .info {min-height:120px; text-align:left; font-weight:bold;}
+
+.flex-ea.selected {flex-basis:100%;}
+.flex-ea.selected img {width:auto;}
+
+.info .category {font-size:12px; color:#0475f4;}
+.info .title {font-size:15px;}
+.info .location {font-size:12px; text-align:right; color:#00c73c;}
+
+@media(max-width: 1073px) {.flex-ea {flex-basis: 50%;}}
+@media(max-width: 555px) {.flex-ea {flex-basis: 100%;}}
+</style>
+
+
+
+<div id="timeline">
+    <div id="cardlist" class="flex-row">
+
+    </div>
+</div>
+<!--
+
+<div class="flex-ea">
+  <figure><img src="../images/deaflida.PNG" alt="데프리다"></figure>
+  <div class="info">
+    <div class="category">
+      <span>스포츠</span> <span>프리다이빙</span>
+    </div>
+    <div class="title">
+      <span>데프리다 - 프리다이빙</span>
+    </div>
+    <div class="location">
+      <span>수원,가평</span>
+    </div>
+  </div>
+</div>
+<div class="flex-ea">
+  <figure><img src="../images/daebok.jpg" alt="이대복"></figure>
+  <div class="info">
+    <span>스포츠</span><span>스쿠버다이빙</span><span>강원도 속초</span>
+  </div>
+</div>
+<div class="flex-ea">
+  <figure><img src="../images/hawkeye.jpg" alt="호크아이"></figure>
+  <div class="info">
+    <span>스포츠</span><span>야구</span><span>대구</span>
+  </div>
+</div>
+<div class="flex-ea">
+  <figure><img src="../images/tornadowing.jpg" alt="토네이도윙"></figure>
+  <div class="info">
+    <span>스포츠</span><span>농구</span><span>서울</span>
+  </div>
+</div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+<div class="flex-ea"><div class="flex-ea-wrapper"></div></div>
+
+
+-->
